@@ -1,0 +1,12 @@
+{
+  "name": "nextstep-ai",
+  "version": "1.0.0",
+  "description": "NextStep AI - Evidence-Grounded, LLM-Powered Web Intelligence Platform (HackIIITD 2026)",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "test:server": "npm --prefix server test",
+    "build:client": "npm --prefix client run build"
+  }
+}
